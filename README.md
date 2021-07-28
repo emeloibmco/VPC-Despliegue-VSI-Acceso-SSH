@@ -10,6 +10,7 @@
 
 
 ## Pre Requisitos :pencil:
+* Contar con una cuenta en <a href="https://cloud.ibm.com/"> IBM Cloud </a>.
 <br />
 
 ## Crear nueva VPC (Virtual Private Cloud) :cloud:
