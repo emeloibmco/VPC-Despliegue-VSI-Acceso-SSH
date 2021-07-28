@@ -29,7 +29,7 @@ Para realizar el ejercicio lo primero que debe hacer es crear una *VPC* en su cu
 
 * ```Nombre```: asigne un nombre exclusivo para la *VPC*.
 * ```Grupo de Recursos```: seleccione el grupo de recursos en el cual va a trabajar.
-* ```Ubicación```: seleccione la Ubicación en la cual desea implementar la *VPC*.
+* ```Ubicación```: seleccione la ubicación en la cual desea implementar la *VPC*.
 * ```Grupo de seguridad predeterminado```: deje seleccionadas las opciones *Permitir SSH* y *Permitir ping*.
 * ```Acceso clásico```: deje el campo SIN seleccionar.
 * ```Prefijos de dirección predeterminados```: deje el campo SIN seleccionar, ya que posteriormente se creara la subred en la que se va a trabajar.
