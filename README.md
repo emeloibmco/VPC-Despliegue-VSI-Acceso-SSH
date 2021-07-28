@@ -122,7 +122,9 @@ ibmcloud is instances
 ```
 ssh -i ./id_rsa root@<ip_flotante>
 ```
+
 6.  Al colocar el comando anterior, en la consola se pide una confirmación para seguir con el acceso, ingrese ```yes```. Posteriormente, ingrese la ```Passphrase``` elegida anteriormente.
+
 7. Si desea asignar una nueva contraseña utilice el comando:
 ```
 passwd 
