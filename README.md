@@ -43,7 +43,7 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear nub
 * ```Nombre```: asigne un nombre exclusivo para la subred.
 * ```Grupo de recursos```: seleccione el grupo de recursos en el cual va a trabajar (el mismo seleccionado en la creación de la *VPC*).
 * ```Ubicación```: seleccione la ubicación en la cual desea implementar la subred (la misma seleccionada en la creación de la *VPC*).
-* ```Nube privada virtual```: selecciona la *VPC* que creó anteriormente.
+* ```Nube privada virtual```: seleccione la *VPC* que creó anteriormente.
 * Los demás parámetros no los modifique, deje los valores establecidos por defecto.
 
 Cuando ya tenga todos los campos configurados de click en el botón ```Crear subred```.
@@ -83,8 +83,13 @@ Un vez ha configurado las claves *SSH* proceda con la creación de la *VSI* Linu
 * ```Tipo de servidor virtual```: seleccione la opción **Público**.
 * ```Sistema operativo```: seleccione la opción Ubuntu **Linux**.
 * ```Perfil```: deje seleccionado el perfil que viene por defecto (**Equilibrado | bx2-2x8**).
-* ```Calves SSH```: de click en el botón ```Clave nueva +```, asigne un nombre exclusivo para su clave *SSH*, seleccione el grupo de recursos, seleccione la ubicación y finalmente en **Clave pública** coloque la clave copiada en el ítem 3 del paso [Configurar claves SSH](#Configurar-claves-SSH-closed_lock_with_key).
-* 
+* ```Claves SSH```: de click en el botón ```Clave nueva +```, asigne un nombre exclusivo para su clave *SSH*, seleccione el grupo de recursos y la ubicación y finalmente en **Clave pública** coloque la clave copiada en el ítem 3 del paso [Configurar claves SSH](#Configurar-claves-SSH-closed_lock_with_key). Posteriormente, de click en el botón ```Àñadir clave SSH```.
+* ```Nube privada virtual```: seleccione la *VPC* creada anteriormente.
+* Los demás parámetros no los modifique, deje los valores establecidos por defecto.
+
+Cuando ya tenga todos los campos configurados de click en el botón ```Crear instancia de servidor virtual```.
+
+5. Espere unos minutos mientras la *VSI* aparece en estado disponible y asegúrese de tener seleccionada la región en la cual la implementó.
 
 <br />
 
