@@ -4,6 +4,7 @@
 
 La presente guía está enfocada en el despliegue de una VSI Linux en *VPC*, junto con la respectiva configuración para el acceso mediante *SSH*. En esta documentación se indican los pasos que van desde la creación de la *VPC* hasta el acceso a la *VSI*.
 
+<br />
 
 ## Índice  📰
 1. [Pre-Requisitos](#Pre-Requisitos-pencil)
