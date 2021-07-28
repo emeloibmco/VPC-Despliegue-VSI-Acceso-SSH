@@ -89,7 +89,7 @@ Un vez ha configurado las claves *SSH* proceda con la creación de la *VSI* Linu
 
 Cuando ya tenga todos los campos configurados de click en el botón ```Crear instancia de servidor virtual```.
 
-5. Espere unos minutos mientras la *VSI* aparece en estado disponible y asegúrese de tener seleccionada la región en la cual la implementó.
+2. Espere unos minutos mientras la *VSI* aparece en estado disponible y asegúrese de tener seleccionada la región en la cual la implementó.
 
 <br />
 
