@@ -9,7 +9,8 @@ La presente guía está enfocada en el despliegue de una VSI Linux en VPC, junto
 2. [Crear nueva VPC (Virtual Private Cloud)](#Crear-nueva-VPC-Virtual-Private-Cloud-cloud)
 3. [Configurar claves SSH](#Configurar-claves-SSH-closed_lock_with_key)
 4. [Desplegar VSI (Virtual Server Instance) en VPC](#Desplegar-VSI-Virtual-Server-Instance-en-VPC-computer)
-5. [Autores](#Autores-black_nib)
+5. [Acceder a la VSI mediante SSH](#Acceder-a-la-VSI-mediante-SSH-trophy)
+6. [Autores](#Autores-black_nib)
 
 
 ## Pre Requisitos :pencil:
@@ -27,6 +28,9 @@ Para realizar el ejercicio lo primero que debe hacer es crear una VPC en su cuen
 <br />
 
 ## Desplegar VSI (Virtual Server Instance) en VPC :computer:
+<br />
+
+## Acceder a la VSI mediante SSH :trophy:
 <br />
 
 ## Autores :black_nib:
