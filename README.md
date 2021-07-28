@@ -40,8 +40,11 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear nub
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/vpc.gif"></p>
 
 3. Espere unos minutos mientras la *VPC* aparece en estado disponible y asegúrese de tener seleccionada la región en la cual la implementó.
+4. Una vez, haya sido aprovisonada la VPC, de click en el nombre e ingrese a la pestaña ```Prefijos de dirección```. En dicha pestaña, de click en ```Crear``` e ingrese la dirección IP que desee junto con la máscara.
+
+> NOTA: Puede utilizar la IP y máscara que se sugeria en las subnets creadas por defecto, cuando se aprovisionado la VPC.
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/prefijo.gif"></p>
-4. Posteriormente, en la misma sección de ```Red``` seleccione la opción ```Subredes``` y de click en el botón ```Crear```. Una vez le aparezca la ventana para la configuración y creación de la subred, complete lo siguiente:
+5. Posteriormente, en la misma sección de ```Red``` seleccione la opción ```Subredes``` y de click en el botón ```Crear```. Una vez le aparezca la ventana para la configuración y creación de la subred, complete lo siguiente:
 
 * ```Nombre```: asigne un nombre exclusivo para la subred.
 * ```Grupo de recursos```: seleccione el grupo de recursos en el cual va a trabajar (el mismo seleccionado en la creación de la *VPC*).
@@ -51,7 +54,7 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear nub
 
 Cuando ya tenga todos los campos configurados de click en el botón ```Crear subred```.
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/subnet.gif"></p>
-5. Espere unos minutos mientras la subred aparece en estado disponible y asegúrese de tener seleccionada la región en la cual la implementó.
+6. Espere unos minutos mientras la subred aparece en estado disponible y asegúrese de tener seleccionada la región en la cual la implementó.
 
 <br />
 
@@ -63,10 +66,11 @@ Para poder desplegar una *VSI* en *VPC* es necesario realizar la respectiva conf
 ssh-keygen -t rsa -C "user_ID"
 ```
 > NOTA: Recuerde reemplazar el user_ID con su respectivo ID de Usuario.
+2. Al colocar el comando anterior, en la consola se pide que especifique la ubicación, en este caso oprima la tecla Enter para que se guarde en la ubicación sugerida. Posteriormente, cuando se pida la ```Passphrase``` coloque una constraseña que pueda recordar o guardela, ya que se utilizará más adelante.
 
-2. Muévase con el comando ```cd .ssh``` a la carpeta donde están los archivos ```id_rsa.pub``` y ```id_rsa```. Estos archivos contienen las claves públicas y privadas respectivamente. 
+3. Muévase con el comando ```cd .ssh``` a la carpeta donde están los archivos ```id_rsa.pub``` y ```id_rsa```. Estos archivos contienen las claves públicas y privadas respectivamente. 
 
-3. Visualice la clave pública, ya que la necesitara para la creación de la *VSI*. Utilice el comando:
+4. Visualice la clave pública, ya que la necesitara para la creación de la *VSI*. Utilice el comando:
 ```
 cat id_rsa.pub
 ```
@@ -109,13 +113,17 @@ Para acceder a la *VSI* mediante *SSH* realice lo siguiente:
 ibmcloud target -r <REGION>
 ibmcloud target -g <GRUPO_RECURSOS>
 ```
+4. Para visualizar en la linea de comandos, si la VSI ha sido creada correctamente, ingrese el siguiente comando:
+```
+ibmcloud is instances
+```
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/verinstancia.gif"></p>
 4. Conéctese a la *VSI* usando la clave privada y la IP flotante reservada anteriormente. Para ello utilice el comando: 
 ```
 ssh -i ./id_rsa root@<ip_flotante>
 ```
-
-5. Si desea asignar una nueva contraseña utilice el comando:
+5.  Al colocar el comando anterior, en la consola se pide una confirmación para seguir con el acceso, ingrese ```yes```. Posteriormente, ingrese la ```Passphrase``` elegida anteriormente.
+6. Si desea asignar una nueva contraseña utilice el comando:
 ```
 passwd 
 ```
