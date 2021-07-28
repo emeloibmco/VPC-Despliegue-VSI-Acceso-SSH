@@ -6,9 +6,9 @@ La presente guía está enfocada en el despliegue de una VSI Linux en *VPC*, jun
 
 ## Índice  📰
 1. [Pre-Requisitos](#Pre-Requisitos-pencil)
-2. [Crear nueva VPC (Virtual Private Cloud)](#Crear-nueva-VPC-Virtual-Private-Cloud-cloud)
+2. [Crear nueva VPC](#Crear-nueva-VPC-cloud)
 3. [Configurar claves SSH](#Configurar-claves-SSH-closed_lock_with_key)
-4. [Desplegar VSI (Virtual Server Instance) en VPC](#Desplegar-VSI-Virtual-Server-Instance-en-VPC-computer)
+4. [Desplegar VSI en VPC](#Desplegar-VSI-en-VPC-computer)
 5. [Acceder a la VSI mediante SSH](#Acceder-a-la-VSI-mediante-SSH-trophy)
 6. [Autores](#Autores-black_nib)
 
@@ -17,7 +17,7 @@ La presente guía está enfocada en el despliegue de una VSI Linux en *VPC*, jun
 * Contar con una cuenta en <a href="https://cloud.ibm.com/"> IBM Cloud </a>.
 <br />
 
-## Crear nueva VPC (Virtual Private Cloud) :cloud:
+## Crear nueva VPC :cloud:
 Para realizar el ejercicio lo primero que debe hacer es crear una *VPC* en su cuenta de *IBM Cloud*. Para ello, siga los pasos que se indican a continuación:
 
 1. De click en el ```Menú de Navegación``` o ```Menú de Hamburguesa``` y seleccione la pestaña ```Infraestructura VPC```.
@@ -30,7 +30,7 @@ Para realizar el ejercicio lo primero que debe hacer es crear una *VPC* en su cu
 ## Configurar claves SSH :closed_lock_with_key:
 <br />
 
-## Desplegar VSI (Virtual Server Instance) en VPC :computer:
+## Desplegar VSI en VPC :computer:
 <br />
 
 ## Acceder a la VSI mediante SSH :trophy:
