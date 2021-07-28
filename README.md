@@ -25,20 +25,31 @@ Para realizar el ejercicio lo primero que debe hacer es crear una *VPC* en su cu
 
 1. De click en el ```Menú de Navegación``` o ```Menú de Hamburguesa``` y seleccione la pestaña ```Infraestructura VPC```.
 
-2. En la sección de ```Red``` seleccione la opción ```VPCs``` y posteriormente de click en el botón ```Crear```.
+2. En la sección de ```Red``` seleccione la opción ```VPCs``` y posteriormente de click en el botón ```Crear```. Una vez le aparezca la ventana para la configuración y creación de la *VPC*, complete lo siguiente:
 
-3. Una vez le aparezca la ventana para la configuración y creación de su *VPC*, complete lo siguiente:
-
-* ```Nombre```: asigne un nombre exclusivo para su *VPC*.
+* ```Nombre```: asigne un nombre exclusivo para la *VPC*.
 * ```Grupo de Recursos```: seleccione el grupo de recursos en el cual va a trabajar.
-* ```Región```: seleccione la región en la cual desea implementar su *VPC*.
+* ```Ubicación```: seleccione la Ubicación en la cual desea implementar la *VPC*.
 * ```Grupo de seguridad predeterminado```: deje seleccionadas las opciones *Permitir SSH* y *Permitir ping*.
 * ```Acceso clásico```: deje el campo SIN seleccionar.
 * ```Prefijos de dirección predeterminados```: deje el campo SIN seleccionar, ya que posteriormente se creara la subred en la que se va a trabajar.
 
-Cuando ya tenga todos los campos configurados de click en el botón ```Crear Nube Privada Virtual```.
+Cuando ya tenga todos los campos configurados de click en el botón ```Crear nube privada virtual```.
 
-4. Espere unos minutos mientras su *VPC* aparece en estado disponible y asegúrese de tener seleccionada la región en la cual la implementó.
+3. Espere unos minutos mientras la *VPC* aparece en estado disponible y asegúrese de tener seleccionada la región en la cual la implementó.
+
+4. Posteriormente en la misma sección de ```Red```selecciones la opción ```Subredes``` y de click en el botón ```Crear```. Una vez le aparezca la ventana para la configuración y creación de la subred, complete lo siguiente:
+
+* ```Nombre```: asigne un nombre exclusivo para la subred.
+* ```Grupo de Recursos```: seleccione el grupo de recursos en el cual va a trabajar (el mismo seleccionado en la creación de la *VPC*).
+* ```Ubicación```: seleccione la ubicación en la cual desea implementar la subred (la misma seleccionada en la creación de la *VPC*).
+* ```Nube Privada Virtual```: selecciona la *VPC* que creó anteriormente.
+* Los demás parámetros nos lo modifique, deje los valores establecidos por defecto.
+
+Cuando ya tenga todos los campos configurados de click en el botón ```Crear subred```.
+
+5. Espere unos minutos mientras la subred aparece en estado disponible y asegúrese de tener seleccionada la región en la cual la implementó.
+
 <br />
 
 ## Configurar claves SSH :closed_lock_with_key:
