@@ -1,8 +1,8 @@
 # VPC-Despliegue-VSI---Acceso-SSH 🔒🔑
 
-*IBM Cloud ™ Virtual Private Cloud (VPC)* es una red virtual que está vinculada a su cuenta de cliente en *IBM Cloud*, proporcionando una forma de administrar sus recursos informáticos, de almacenamiento y de red. Con esta herramienta usted puede definir y controlar una red virtual en partes aisladas lógicamente, donde puede ejecutar y dar soporte a sus aplicaciones de misión crítica, tolerantes a la nube y nativas de la nube. Adicionalmente, puede aprovisionar *Virtual Server Instances (VSI)* para VPC con un alto rendimiento de red. 
+*IBM Cloud ™ Virtual Private Cloud (VPC)* es una red virtual que está vinculada a su cuenta de cliente en *IBM Cloud*, proporcionando una forma de administrar sus recursos informáticos, de almacenamiento y de red. Con esta herramienta usted puede definir y controlar una red virtual en partes aisladas lógicamente, donde puede ejecutar y dar soporte a sus aplicaciones de misión crítica, tolerantes a la nube y nativas de la nube. Adicionalmente, puede aprovisionar *Virtual Server Instances (VSI)* para *VPC* con un alto rendimiento de red. 
 
-La presente guía está enfocada en el despliegue de una VSI Linux en VPC, junto con la respectiva configuración para el acceso mediante *SSH*. En esta documentación se indican los pasos que van desde la creación de la VPC hasta el acceso a la VSI.
+La presente guía está enfocada en el despliegue de una VSI Linux en *VPC*, junto con la respectiva configuración para el acceso mediante *SSH*. En esta documentación se indican los pasos que van desde la creación de la *VPC* hasta el acceso a la *VSI*.
 
 ## Índice  📰
 1. [Pre-Requisitos](#Pre-Requisitos-pencil)
@@ -18,7 +18,7 @@ La presente guía está enfocada en el despliegue de una VSI Linux en VPC, junto
 <br />
 
 ## Crear nueva VPC (Virtual Private Cloud) :cloud:
-Para realizar el ejercicio lo primero que debe hacer es crear una VPC en su cuenta de *IBM Cloud*. Para ello, siga los pasos que se indican a continuación:
+Para realizar el ejercicio lo primero que debe hacer es crear una *VPC* en su cuenta de *IBM Cloud*. Para ello, siga los pasos que se indican a continuación:
 
 1. De click en el ```Menú de Navegación``` o ```Menú de Hamburguesa``` y seleccione las pestaña ```Infraestructura VPC```.
 
