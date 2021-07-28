@@ -37,6 +37,8 @@ Para realizar el ejercicio lo primero que debe hacer es crear una *VPC* en su cu
 
 Cuando ya tenga todos los campos configurados de click en el botón ```Crear nube privada virtual```.
 
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/Crear%20Dockerfile.gif"></p>
+
 3. Espere unos minutos mientras la *VPC* aparece en estado disponible y asegúrese de tener seleccionada la región en la cual la implementó.
 
 4. Posteriormente, en la misma sección de ```Red``` seleccione la opción ```Subredes``` y de click en el botón ```Crear```. Una vez le aparezca la ventana para la configuración y creación de la subred, complete lo siguiente:
