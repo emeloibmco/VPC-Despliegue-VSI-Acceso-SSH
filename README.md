@@ -40,7 +40,7 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear nub
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/vpc.gif"></p>
 
 3. Espere unos minutos mientras la *VPC* aparece en estado disponible y asegúrese de tener seleccionada la región en la cual la implementó.
-
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/prefijo.gif"></p>
 4. Posteriormente, en la misma sección de ```Red``` seleccione la opción ```Subredes``` y de click en el botón ```Crear```. Una vez le aparezca la ventana para la configuración y creación de la subred, complete lo siguiente:
 
 * ```Nombre```: asigne un nombre exclusivo para la subred.
@@ -50,7 +50,7 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear nub
 * Los demás parámetros no los modifique, deje los valores establecidos por defecto.
 
 Cuando ya tenga todos los campos configurados de click en el botón ```Crear subred```.
-
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/subnet.gif"></p>
 5. Espere unos minutos mientras la subred aparece en estado disponible y asegúrese de tener seleccionada la región en la cual la implementó.
 
 <br />
@@ -72,7 +72,7 @@ cat id_rsa.pub
 ```
 > NOTA: Por defecto la clave empieza con ssh_rsa y termina con el user_ID. Copie la clave para emplearla más adelante.
 
-
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/ssh.gif"></p>
 <br />
 
 ## Desplegar VSI en VPC :computer:
@@ -91,7 +91,7 @@ Un vez ha configurado las claves *SSH* proceda con la creación de la *VSI* Linu
 * Los demás parámetros no los modifique, deje los valores establecidos por defecto.
 
 Cuando ya tenga todos los campos configurados de click en el botón ```Crear instancia de servidor virtual```.
-
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/vsi.gif"></p>
 2. Espere unos minutos mientras la *VSI* aparece en estado disponible y asegúrese de tener seleccionada la región en la cual la implementó.
 
 <br />
@@ -102,13 +102,14 @@ Para acceder a la *VSI* mediante *SSH* realice lo siguiente:
 1. Configure la IP Flotante. Para ello, haga click en la *VSI* implementada y en la sección de ```Interfaces de Red``` seleccione la opción ```editar```. 
 
 2. En la opción ```Dirección IP flotante``` seleccione la opción ```Reservar IP flotante```. Luego, de click en ```Guardar```. Después de esto debe poder visualizar la IP flotante de la *VSI* en la sección de ```Interfaces de Red```.
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/ipflotante.gif"></p>
 
 3. En *IBM Cloud Shell* cambie la región y el grupo de recursos mediante los comandos:
 ```
 ibmcloud target -r <REGION>
 ibmcloud target -g <GRUPO_RECURSOS>
 ```
-
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/verinstancia.gif"></p>
 4. Conéctese a la *VSI* usando la clave privada y la IP flotante reservada anteriormente. Para ello utilice el comando: 
 ```
 ssh -i ./id_rsa root@<ip_flotante>
@@ -118,6 +119,7 @@ ssh -i ./id_rsa root@<ip_flotante>
 ```
 passwd 
 ```
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/pass.PNG"></p>
 <br />
 
 ## Referencias :mag:
