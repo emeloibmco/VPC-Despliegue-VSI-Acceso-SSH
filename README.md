@@ -18,7 +18,7 @@ La presente guía está enfocada en el despliegue de una VSI Linux en *VPC*, jun
 
 ## Pre Requisitos :pencil:
 * Contar con una cuenta en <a href="https://cloud.ibm.com/"> IBM Cloud </a>.
-* Contar con un grupo de recursos específico para la implementación de la *VPC*.
+* Contar con un grupo de recursos específico para la implementación de los recursos.
 <br />
 
 ## Crear nueva VPC :cloud:
