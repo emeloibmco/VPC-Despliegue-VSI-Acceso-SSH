@@ -1,5 +1,6 @@
 # VPC-Despliegue-VSI---Acceso-SSH 🔒🔑
 
+La presente guía está enfocada en el despliegue de una VSI (*Virtual Server Instance*) Linux en VCP (*Virtual Private Cloud*), junto con la respectiva configuración para el acceso mediante *SSH*. En esta documentación se indican los pasos que van desde la creación de la VPC hasta el acceso a la VSI.
 
 ## Índice  📰
 1. [Pre-Requisitos](#Pre-Requisitos-pencil)
@@ -14,6 +15,7 @@
 <br />
 
 ## Crear nueva VPC (Virtual Private Cloud) :cloud:
+
 <br />
 
 ## Configurar claves SSH :closed_lock_with_key:
