@@ -42,7 +42,7 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear nub
 3. Espere unos minutos mientras la *VPC* aparece en estado disponible y asegúrese de tener seleccionada la región en la cual la implementó.
 4. Una vez, haya sido aprovisonada la VPC, de click en el nombre e ingrese a la pestaña ```Prefijos de dirección```. En dicha pestaña, de click en ```Crear``` e ingrese la dirección IP que desee junto con la máscara.
 
-> NOTA: Puede utilizar la IP y máscara que se sugeria en las subnets creadas por defecto, cuando se aprovisionado la VPC.
+> NOTA: Puede utilizar la IP y máscara que sugeridas en las subnets creadas por defecto cuando se estaba aprovisionando la VPC.
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/prefijo.gif"></p>
 5. Posteriormente, en la misma sección de ```Red``` seleccione la opción ```Subredes``` y de click en el botón ```Crear```. Una vez le aparezca la ventana para la configuración y creación de la subred, complete lo siguiente:
 
@@ -122,7 +122,9 @@ ibmcloud is instances
 ```
 ssh -i ./id_rsa root@<ip_flotante>
 ```
+
 5.  Al colocar el comando anterior, en la consola se pide una confirmación para seguir con el acceso, ingrese ```yes```. Posteriormente, ingrese la ```Passphrase``` elegida anteriormente.
+
 6. Si desea asignar una nueva contraseña utilice el comando:
 ```
 passwd 
