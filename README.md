@@ -5,7 +5,8 @@
 1. [Pre-Requisitos](#Pre-Requisitos-pencil)
 2. [Crear nueva VPC - Virtual Private Cloud](#Crear-nueva-VPC---Virtual-Private-Cloud-mag_right)
 3. [Configurar claves SSH](#Configurar-claves-SSH-file_folder)
-4. [Crear nueva VSI (Virtual Server Instance)](#Crear-nueva-VSI-(Virtual-Server-Instance)-outbox_tray-cloud)
+4. [Crear nueva VSI - Virtual Server Instance](#Crear-nueva-VSI---Virtual-Server-Instance-outbox_tray-cloud)
+5. [Autores](#Autores-black_nib)
 
 
 ## Pre Requisitos :pencil:
@@ -20,5 +21,5 @@
 ## Crear nueva VSI (Virtual Server Instance) :outbox_tray: :cloud:
 <br />
 
-## Autores ✒
+## Autores :black_nib:
 <br />
