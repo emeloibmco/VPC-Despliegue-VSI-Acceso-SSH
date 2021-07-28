@@ -53,6 +53,9 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear sub
 <br />
 
 ## Configurar claves SSH :closed_lock_with_key:
+Para poder desplegar una *VSI* en *VPC* es necesario realizar la respectiva configuración para las claves *SSH*. En base a esto, realice lo siguiente:
+
+1. Para generar una clave *SSH* 
 <br />
 
 ## Desplegar VSI en VPC :computer:
