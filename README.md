@@ -38,7 +38,7 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear nub
 
 3. Espere unos minutos mientras la *VPC* aparece en estado disponible y asegúrese de tener seleccionada la región en la cual la implementó.
 
-4. Posteriormente en la misma sección de ```Red```selecciones la opción ```Subredes``` y de click en el botón ```Crear```. Una vez le aparezca la ventana para la configuración y creación de la subred, complete lo siguiente:
+4. Posteriormente, en la misma sección de ```Red``` seleccione la opción ```Subredes``` y de click en el botón ```Crear```. Una vez le aparezca la ventana para la configuración y creación de la subred, complete lo siguiente:
 
 * ```Nombre```: asigne un nombre exclusivo para la subred.
 * ```Grupo de Recursos```: seleccione el grupo de recursos en el cual va a trabajar (el mismo seleccionado en la creación de la *VPC*).
