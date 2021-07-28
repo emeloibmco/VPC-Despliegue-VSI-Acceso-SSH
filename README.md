@@ -1,6 +1,6 @@
 # VPC-Despliegue-VSI---Acceso-SSH 🔒🔑
 
-La presente guía está enfocada en el despliegue de una VSI (*Virtual Server Instance*) Linux en VCP (*Virtual Private Cloud*), junto con la respectiva configuración para el acceso mediante *SSH*. En esta documentación se indican los pasos que van desde la creación de la VPC hasta el acceso a la VSI.
+*IBM Cloud ™ Virtual Private Cloud (VPC)* es una red virtual que está vinculada a su cuenta de cliente en *IBM Cloud*, proporcionando una forma de administrar sus recursos informáticos, de almacenamiento y de red. Con esta herramienta usted puede definir y controlar una red virtual en partes aisladas lógicamente en donde puede ejecutar y dar soporte a sus aplicaciones de misión crítica, tolerantes a la nube y nativas de la nube. Adicionalmente, puede aprovisionar *Virtual Server Instances (VSI)* para VPC con un alto rendimiento de red. A partir de lo anterior, la presente guía está enfocada en el despliegue de una VSI Linux en VCP, junto con la respectiva configuración para el acceso mediante *SSH*. En esta documentación se indican los pasos que van desde la creación de la VPC hasta el acceso a la VSI.
 
 ## Índice  📰
 1. [Pre-Requisitos](#Pre-Requisitos-pencil)
@@ -15,7 +15,7 @@ La presente guía está enfocada en el despliegue de una VSI (*Virtual Server In
 <br />
 
 ## Crear nueva VPC (Virtual Private Cloud) :cloud:
-
+Para realizar el ejercicio lo primero que debe hacer es crear una VPC en su cuenta de *IBM Cloud*. Para ello
 <br />
 
 ## Configurar claves SSH :closed_lock_with_key:
