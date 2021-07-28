@@ -103,7 +103,17 @@ Para acceder a la *VSI* mediante *SSH* realice lo siguiente:
 3. En *IBM Cloud Shell* cambie la región y el grupo de recursos mediante los comandos:
 ```
 ibmcloud target -r <REGION>
-ibmcloud target -g <<GRUPO_RECURSOS>
+ibmcloud target -g <GRUPO_RECURSOS>
+```
+
+4. Conéctese a la *VSI* usando la clave privada y la IP flotante reservada anteriormente. Para ello utilice el comando: 
+```
+ssh -i ./id_rsa root@<ip_flotante>
+```
+
+5. Si desea asignar una nueva contraseña utilice el comando:
+```
+passwd 
 ```
 
 
