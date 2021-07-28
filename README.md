@@ -15,6 +15,7 @@ La presente guía está enfocada en el despliegue de una VSI Linux en *VPC*, jun
 
 ## Pre Requisitos :pencil:
 * Contar con una cuenta en <a href="https://cloud.ibm.com/"> IBM Cloud </a>.
+* Contar con un grupo de recursos específico para la implementación de la *VPC*.
 <br />
 
 ## Crear nueva VPC :cloud:
@@ -23,6 +24,15 @@ Para realizar el ejercicio lo primero que debe hacer es crear una *VPC* en su cu
 1. De click en el ```Menú de Navegación``` o ```Menú de Hamburguesa``` y seleccione la pestaña ```Infraestructura VPC```.
 
 2. En la sección de ```Red``` seleccione la opción ```VPCs``` y posteriormente de click en el botón ```Crear```.
+
+3. Una vez le aparezca la ventana para la configuración y creación de su *VPC*, complete lo siguiente:
+
+* ```Nombre```: asigne un nombre exclusivo para su *VPC*.
+* ```Grupo de Recursos```: seleccione el grupo de recursos en el cual va a trabajar.
+* ```Región```: seleccione la región en la cual desea implementar su *VPC*.
+* ```Grupo de seguridad predeterminado```: deje seleccionadas las opciones *Permitir SSH* y *Permitir ping*.
+* ```Acceso clásico```: deje el campo sin seleccionar.
+* ```Prefijos de dirección predeterminados```: deje el campo sin seleccrionar, ya que posteriormente se creara la subred en la que se va a trabajar.
 
 <br />
 
