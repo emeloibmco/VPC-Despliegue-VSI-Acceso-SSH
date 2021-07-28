@@ -83,7 +83,7 @@ Un vez ha configurado las claves *SSH* proceda con la creación de la *VSI* Linu
 * ```Tipo de servidor virtual```: seleccione la opción **Público**.
 * ```Sistema operativo```: seleccione la opción Ubuntu **Linux**.
 * ```Perfil```: deje seleccionado el perfil que viene por defecto (**Equilibrado | bx2-2x8**).
-* ```Claves SSH```: de click en el botón ```Clave nueva +```, asigne un nombre exclusivo para su clave *SSH*, seleccione el grupo de recursos y la ubicación y finalmente en **Clave pública** coloque la clave copiada en el ítem 3 del paso [Configurar claves SSH](#Configurar-claves-SSH-closed_lock_with_key). Posteriormente, de click en el botón ```Àñadir clave SSH```.
+* ```Claves SSH```: de click en el botón ```Clave nueva +```, asigne un nombre exclusivo para su clave *SSH*, seleccione el grupo de recursos y la ubicación y finalmente en **Clave pública** coloque la clave copiada en el ítem 3 del paso [Configurar claves SSH](#Configurar-claves-SSH-closed_lock_with_key). Posteriormente, de click en el botón ```Añadir clave SSH```.
 * ```Nube privada virtual```: seleccione la *VPC* creada anteriormente.
 * Los demás parámetros no los modifique, deje los valores establecidos por defecto.
 
