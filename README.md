@@ -36,7 +36,7 @@ Para realizar el ejercicio lo primero que debe hacer es crear una *VPC* en su cu
 
 Cuando ya tenga todos los campos configurados de click en el botón ```Crear Nube Privada Virtual```.
 
-4. Espero unos minutos mientras su *VPC* aparece en estado disponible y asegúrese de tener seleccionada la región en la cual la implementó.
+4. Espere unos minutos mientras su *VPC* aparece en estado disponible y asegúrese de tener seleccionada la región en la cual la implementó.
 <br />
 
 ## Configurar claves SSH :closed_lock_with_key:
