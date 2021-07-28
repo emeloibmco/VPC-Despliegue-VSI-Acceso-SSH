@@ -20,7 +20,10 @@ La presente guía está enfocada en el despliegue de una VSI Linux en *VPC*, jun
 ## Crear nueva VPC (Virtual Private Cloud) :cloud:
 Para realizar el ejercicio lo primero que debe hacer es crear una *VPC* en su cuenta de *IBM Cloud*. Para ello, siga los pasos que se indican a continuación:
 
-1. De click en el ```Menú de Navegación``` o ```Menú de Hamburguesa``` y seleccione las pestaña ```Infraestructura VPC```.
+1. De click en el ```Menú de Navegación``` o ```Menú de Hamburguesa``` y seleccione la pestaña ```Infraestructura VPC```.
+<br />
+
+2. En la sección de ```Red``` seleccione la opción ```VPCs``` y posteriormente de click en el botón ```Crear```.
 
 <br />
 
