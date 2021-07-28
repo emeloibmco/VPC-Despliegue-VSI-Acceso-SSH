@@ -44,7 +44,7 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear nub
 * ```Grupo de Recursos```: seleccione el grupo de recursos en el cual va a trabajar (el mismo seleccionado en la creación de la *VPC*).
 * ```Ubicación```: seleccione la ubicación en la cual desea implementar la subred (la misma seleccionada en la creación de la *VPC*).
 * ```Nube Privada Virtual```: selecciona la *VPC* que creó anteriormente.
-* Los demás parámetros nos lo modifique, deje los valores establecidos por defecto.
+* Los demás parámetros no los modifique, deje los valores establecidos por defecto.
 
 Cuando ya tenga todos los campos configurados de click en el botón ```Crear subred```.
 
