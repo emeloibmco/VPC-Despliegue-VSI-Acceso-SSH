@@ -28,7 +28,7 @@ Para realizar el ejercicio lo primero que debe hacer es crear una *VPC* en su cu
 2. En la sección de ```Red``` seleccione la opción ```VPCs``` y posteriormente de click en el botón ```Crear```. Una vez le aparezca la ventana para la configuración y creación de la *VPC*, complete lo siguiente:
 
 * ```Nombre```: asigne un nombre exclusivo para la *VPC*.
-* ```Grupo de Recursos```: seleccione el grupo de recursos en el cual va a trabajar.
+* ```Grupo de recursos```: seleccione el grupo de recursos en el cual va a trabajar.
 * ```Ubicación```: seleccione la ubicación en la cual desea implementar la *VPC*.
 * ```Grupo de seguridad predeterminado```: deje seleccionadas las opciones *Permitir SSH* y *Permitir ping*.
 * ```Acceso clásico```: deje el campo SIN seleccionar.
@@ -41,9 +41,9 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear nub
 4. Posteriormente, en la misma sección de ```Red``` seleccione la opción ```Subredes``` y de click en el botón ```Crear```. Una vez le aparezca la ventana para la configuración y creación de la subred, complete lo siguiente:
 
 * ```Nombre```: asigne un nombre exclusivo para la subred.
-* ```Grupo de Recursos```: seleccione el grupo de recursos en el cual va a trabajar (el mismo seleccionado en la creación de la *VPC*).
+* ```Grupo de recursos```: seleccione el grupo de recursos en el cual va a trabajar (el mismo seleccionado en la creación de la *VPC*).
 * ```Ubicación```: seleccione la ubicación en la cual desea implementar la subred (la misma seleccionada en la creación de la *VPC*).
-* ```Nube Privada Virtual```: selecciona la *VPC* que creó anteriormente.
+* ```Nube privada virtual```: selecciona la *VPC* que creó anteriormente.
 * Los demás parámetros no los modifique, deje los valores establecidos por defecto.
 
 Cuando ya tenga todos los campos configurados de click en el botón ```Crear subred```.
@@ -63,7 +63,7 @@ ssh-keygen -t rsa -C "user_ID"
 
 2. Muévase con el comando ```cd .ssh``` a la carpeta donde están los archivos ```id_rsa.pub``` y ```id_rsa```. Estos archivos contienen las claves públicas y privadas respectivamente. 
 
-3. Visualice la clave pública, ya que esta la necesitara para la creación de la *VSI*. Utilice el comando:
+3. Visualice la clave pública, ya que la necesitara para la creación de la *VSI*. Utilice el comando:
 ```
 cat id_rsa.pub
 ```
@@ -73,6 +73,19 @@ cat id_rsa.pub
 <br />
 
 ## Desplegar VSI en VPC :computer:
+Un vez ha configurado las claves *SSH* proceda con la creación de la *VSI* Linux en *VPC*. Complete los siguientes pasos:
+
+1. En la sección de ```Computación``` seleccione la opción ```Instancias de Servidor Virtual``` y posteriormente de click en el botón ```Crear```. Una vez le aparezca la ventana para la configuración y creación de la *VSI*, complete lo siguiente:
+
+* ```Nombre```: asigne un nombre exclusivo para la *VSI*.
+* ```Grupo de recursos```: seleccione el grupo de recursos en el cual va a trabajar (el mismo seleccionado en la creación de la *VPC*).
+* ```Ubicación```: seleccione la ubicación en la cual desea implementar la subred (la misma seleccionada en la creación de la *VPC*).
+* ```Tipo de servidor virtual```: seleccione la opción **Público**.
+* ```Sistema operativo```: seleccione la opción Ubuntu **Linux**.
+* ```Perfil```: deje seleccionado el perfil que viene por defecto (**Equilibrado | bx2-2x8**).
+* ```Calves SSH```: de click en el botón ```Clave nueva +```, asigne un nombre exclusivo para su clave *SSH*, seleccione el grupo de recursos, seleccione la ubicación y finalmente en **Clave pública** coloque la clave copiada en el ítem 3 del paso [Configurar claves SSH](#Configurar-claves-SSH-closed_lock_with_key).
+* 
+
 <br />
 
 ## Acceder a la VSI mediante SSH :trophy:
