@@ -37,7 +37,7 @@ Para realizar el ejercicio lo primero que debe hacer es crear una *VPC* en su cu
 
 Cuando ya tenga todos los campos configurados de click en el botón ```Crear nube privada virtual```.
 
-<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/Crear%20Dockerfile.gif"></p>
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/vpc.gif"></p>
 
 3. Espere unos minutos mientras la *VPC* aparece en estado disponible y asegúrese de tener seleccionada la región en la cual la implementó.
 
