@@ -31,9 +31,12 @@ Para realizar el ejercicio lo primero que debe hacer es crear una *VPC* en su cu
 * ```Grupo de Recursos```: seleccione el grupo de recursos en el cual va a trabajar.
 * ```Región```: seleccione la región en la cual desea implementar su *VPC*.
 * ```Grupo de seguridad predeterminado```: deje seleccionadas las opciones *Permitir SSH* y *Permitir ping*.
-* ```Acceso clásico```: deje el campo sin seleccionar.
-* ```Prefijos de dirección predeterminados```: deje el campo sin seleccrionar, ya que posteriormente se creara la subred en la que se va a trabajar.
+* ```Acceso clásico```: deje el campo SIN seleccionar.
+* ```Prefijos de dirección predeterminados```: deje el campo SIN seleccionar, ya que posteriormente se creara la subred en la que se va a trabajar.
 
+Cuando ya tenga todos los campos configurados de click en el botón ```Crear Nube Privada Virtual```.
+
+4. Espero unos minutos mientras su *VPC* aparece en estado disponible y asegúrese de tener seleccionada la región en la cual la implementó.
 <br />
 
 ## Configurar claves SSH :closed_lock_with_key:
