@@ -94,6 +94,19 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear ins
 <br />
 
 ## Acceder a la VSI mediante SSH :trophy:
+Para acceder a la *VSI* mediante *SSH* realice lo siguiente:
+
+1. Configure la IP Flotante. Para ello, haga click en la *VSI* implementada y en la sección de ```Interfaces de Red``` seleccione la opción ```editar``. 
+
+2. En la opción ```Dirección IP flotante``` seleccione la opción ```Reservar IP flotante```. Luego, de click en ```Guardar```. Después de esto debe poder visualizar la IP flotante de la *VSI* en la sección de ```Interfaces de Red```.
+
+3. En *IBM Cloud Shell* cambie la región y el grupo de recursos mediante los comandos:
+```
+ibmcloud target -r <REGION>
+ibmcloud target -g <<GRUPO_RECURSOS>
+```
+
+
 <br />
 
 ## Autores :black_nib:
