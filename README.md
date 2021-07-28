@@ -55,7 +55,15 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear sub
 ## Configurar claves SSH :closed_lock_with_key:
 Para poder desplegar una *VSI* en *VPC* es necesario realizar la respectiva configuración para las claves *SSH*. En base a esto, realice lo siguiente:
 
-1. Para generar una clave *SSH* 
+1. Para generar una clave *SSH* acceda al *IBM Cloud Shell* y coloque el comando:
+```
+ssh-keygen -t rsa -C "user_ID"
+```
+> NOTA: Recuerde reemplazar el user_ID con su respectivo ID de Usuario.
+
+2. 
+
+
 <br />
 
 ## Desplegar VSI en VPC :computer:
