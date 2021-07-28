@@ -61,7 +61,7 @@ ssh-keygen -t rsa -C "user_ID"
 ```
 > NOTA: Recuerde reemplazar el user_ID con su respectivo ID de Usuario.
 
-2. Luego, muévase con el comando ```cd`.ssh``` a la carpeta que contiene los archivos ```id_rsa.pub``` y ```id_rsa```. Estos archivos contienen las claves públicas y privadas respectivamente. 
+2. Muévase con el comando ```cd.ssh``` a la carpeta que contiene los archivos ```id_rsa.pub``` y ```id_rsa```. Estos archivos contienen las claves públicas y privadas respectivamente. 
 
 3. Visualice la clave pública, ya que esta la necesitara para la creación de la *VSI*. Utilice el comando:
 ```
