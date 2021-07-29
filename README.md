@@ -96,7 +96,9 @@ Un vez ha configurado las claves *SSH* proceda con la creación de la *VSI* Linu
 * Los demás parámetros no los modifique, deje los valores establecidos por defecto.
 
 Cuando ya tenga todos los campos configurados de click en el botón ```Crear instancia de servidor virtual```.
+
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/vsi.gif"></p>
+
 2. Espere unos minutos mientras la *VSI* aparece en estado disponible y asegúrese de tener seleccionada la región en la cual la implementó.
 
 <br />
