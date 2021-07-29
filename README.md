@@ -86,6 +86,7 @@ cat id_rsa.pub
 
 <br />
 
+
 ## Desplegar VSI en VPC :computer:
 Un vez ha configurado las claves *SSH* proceda con la creación de la *VSI* Linux en *VPC*. Complete los siguientes pasos:
 
