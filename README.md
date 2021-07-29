@@ -48,6 +48,7 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear nub
 
 <br />
 
+
 ## Crear subred :wrench:
 El siguiente paso consiste en crear un Subred en la *VPC*. Para ello, en la sección de ```Red``` seleccione la opción ```Subredes``` y de click en el botón ```Crear```. Una vez le aparezca la ventana para la configuración y creación de la subred, complete lo siguiente:
 
