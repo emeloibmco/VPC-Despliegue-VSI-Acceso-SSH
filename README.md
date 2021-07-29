@@ -8,7 +8,7 @@ La presente guía está enfocada en el despliegue de una VSI Linux en *VPC*, jun
 
 ## Índice  📰
 1. [Pre-Requisitos](#Pre-Requisitos-pencil)
-2. [Crear nueva VPC](#Crear-nueva-VPC-cloud)
+2. [Crear  VPC](#Crear-VPC-cloud)
 3. [Crear subred](#Crear-subred-wrench)
 4. [Configurar claves SSH](#Configurar-claves-SSH-closed_lock_with_key)
 5. [Desplegar VSI en VPC](#Desplegar-VSI-en-VPC-computer)
@@ -22,7 +22,7 @@ La presente guía está enfocada en el despliegue de una VSI Linux en *VPC*, jun
 * Contar con un grupo de recursos específico para la implementación de los recursos.
 <br />
 
-## Crear nueva VPC :cloud:
+## Crear VPC :cloud:
 Para realizar el ejercicio lo primero que debe hacer es crear una *VPC* en su cuenta de *IBM Cloud*. Para ello, siga los pasos que se indican a continuación:
 
 1. De click en el ```Menú de Navegación``` o ```Menú de Hamburguesa``` y seleccione la pestaña ```Infraestructura VPC```.
