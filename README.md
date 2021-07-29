@@ -45,6 +45,7 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear nub
 
 > NOTA: Puede utilizar la IP y máscara sugeridas en las subnets creadas por defecto cuando se estaba aprovisionando la VPC.
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/prefijo.gif"></p>
+
 <br />
 
 ## Crear subred :wrench:
