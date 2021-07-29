@@ -59,6 +59,7 @@ El siguiente paso consiste en crear un Subred en la *VPC*. Para ello, en la secc
 Cuando ya tenga todos los campos configurados de click en el botón ```Crear subred```.
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/subnet.gif"></p>
 6. Espere unos minutos mientras la subred aparece en estado disponible y asegúrese de tener seleccionada la región en la cual la implementó.
+
 <br />
 
 ## Configurar claves SSH :closed_lock_with_key:
