@@ -147,6 +147,7 @@ passwd 
 
 ## Referencias :mag:
 * <a href="https://cloud.ibm.com/docs/vpc?topic=vpc-ssh-keys"> SSH Keys</a>.
+* <a href="https://cloud.ibm.com/docs/vpc?topic=vpc-creating-virtual-servers"> Creating virtual server instances</a>.
 * <a href="https://cloud.ibm.com/docs/vpc?topic=vpc-vsi_is_connecting_linux"> Connecting to Linux instances</a>.
 
 <br />
