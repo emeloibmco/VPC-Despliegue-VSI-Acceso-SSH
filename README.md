@@ -44,6 +44,7 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear nub
 
 > NOTA: Puede utilizar la IP y máscara sugeridas en las subnets creadas por defecto cuando se estaba aprovisionando la VPC.
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/prefijo.gif"></p>
+
 5. Posteriormente, en la misma sección de ```Red``` seleccione la opción ```Subredes``` y de click en el botón ```Crear```. Una vez le aparezca la ventana para la configuración y creación de la subred, complete lo siguiente:
 
 * ```Nombre```: asigne un nombre exclusivo para la subred.
@@ -118,6 +119,7 @@ ibmcloud target -g <GRUPO_RECURSOS>
 ibmcloud is instances
 ```
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/verinstancia.gif"></p>
+
 5. Conéctese a la *VSI* usando la clave privada y la IP flotante reservada anteriormente. Para ello utilice el comando: 
 ```
 ssh -i ./id_rsa root@<ip_flotante>
