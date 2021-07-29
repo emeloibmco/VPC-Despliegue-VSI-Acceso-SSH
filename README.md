@@ -64,9 +64,9 @@ Para poder desplegar una *VSI* en *VPC* es necesario realizar la respectiva conf
 
 1. Para generar una clave *SSH* acceda al *IBM Cloud Shell* y coloque el comando:
 ```
-ssh-keygen -t rsa -C "user_ID"
+ssh-keygen -t rsa -C "user_id"
 ```
-> NOTA: Recuerde reemplazar el user_ID con su respectivo ID de Usuario.
+
 2. Al colocar el comando anterior, en la consola se pide que especifique la ubicación, en este caso oprima la tecla Enter para que se guarde en la ubicación sugerida. Posteriormente, cuando se pida la ```Passphrase``` coloque una constraseña que pueda recordar o guardela, ya que se utilizará más adelante.
 
 3. Muévase con el comando ```cd .ssh``` a la carpeta donde están los archivos ```id_rsa.pub``` y ```id_rsa```. Estos archivos contienen las claves públicas y privadas respectivamente. 
