@@ -9,11 +9,12 @@ La presente guía está enfocada en el despliegue de una VSI Linux en *VPC*, jun
 ## Índice  📰
 1. [Pre-Requisitos](#Pre-Requisitos-pencil)
 2. [Crear nueva VPC](#Crear-nueva-VPC-cloud)
-3. [Configurar claves SSH](#Configurar-claves-SSH-closed_lock_with_key)
-4. [Desplegar VSI en VPC](#Desplegar-VSI-en-VPC-computer)
-5. [Acceder a la VSI mediante SSH](#Acceder-a-la-VSI-mediante-SSH-trophy)
-6. [Referencias](#Referencias-mag)
-7. [Autores](#Autores-black_nib)
+3. [Crear subred](#Crear-subred-wrench)
+4. [Configurar claves SSH](#Configurar-claves-SSH-closed_lock_with_key)
+5. [Desplegar VSI en VPC](#Desplegar-VSI-en-VPC-computer)
+6. [Acceder a la VSI mediante SSH](#Acceder-a-la-VSI-mediante-SSH-trophy)
+7. [Referencias](#Referencias-mag)
+8. [Autores](#Autores-black_nib)
 <br />
 
 ## Pre Requisitos :pencil:
@@ -44,8 +45,10 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear nub
 
 > NOTA: Puede utilizar la IP y máscara sugeridas en las subnets creadas por defecto cuando se estaba aprovisionando la VPC.
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/prefijo.gif"></p>
+<br />
 
-5. Posteriormente, en la misma sección de ```Red``` seleccione la opción ```Subredes``` y de click en el botón ```Crear```. Una vez le aparezca la ventana para la configuración y creación de la subred, complete lo siguiente:
+## Crear subred :wrench:
+El siguiente paso consiste en crear un Subred en la *VPC*. Para ello, en la sección de ```Red``` seleccione la opción ```Subredes``` y de click en el botón ```Crear```. Una vez le aparezca la ventana para la configuración y creación de la subred, complete lo siguiente:
 
 * ```Nombre```: asigne un nombre exclusivo para la subred.
 * ```Grupo de recursos```: seleccione el grupo de recursos en el cual va a trabajar (el mismo seleccionado en la creación de la *VPC*).
