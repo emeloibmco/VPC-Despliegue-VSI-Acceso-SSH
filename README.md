@@ -145,6 +145,9 @@ passwd 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/pass.PNG"></p>
 <br />
 
+> NOTA: Después de realizar la configuración, si desea cceder nuevamente a la VSI mediante *SSH* lo único que ebe hacer es ingresar el comando ```ssh root@<ip_flotante>``` y posteriormente la contraseña establecida.
+
+
 ## Referencias :mag:
 * <a href="https://cloud.ibm.com/docs/vpc?topic=vpc-ssh-keys">SSH Keys</a>.
 * <a href="https://cloud.ibm.com/docs/vpc?topic=vpc-creating-virtual-servers">Creating virtual server instances</a>.
