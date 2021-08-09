@@ -146,7 +146,7 @@ passwd 
 <br />
 
 > NOTA: Después de realizar la configuración, si desea acceder nuevamente a la *VSI* mediante *SSH* lo único que debe hacer es ingresar el comando ```ssh root@<ip_flotante>``` y posteriormente la contraseña establecida.
-
+<br />
 
 ## Referencias :mag:
 * <a href="https://cloud.ibm.com/docs/vpc?topic=vpc-ssh-keys">SSH Keys</a>.
