@@ -13,8 +13,9 @@ La presente guía está enfocada en el despliegue de una VSI Linux en *VPC*, jun
 4. [Configurar claves SSH](#Configurar-claves-SSH-closed_lock_with_key)
 5. [Desplegar VSI en VPC](#Desplegar-VSI-en-VPC-computer)
 6. [Acceder a la VSI mediante SSH](#Acceder-a-la-VSI-mediante-SSH-trophy)
-7. [Referencias](#Referencias-mag)
-8. [Autores](#Autores-black_nib)
+7. [Relizar pruebas de ancho de banda entre 2 VSI con la herramienta lperf](#Relizar-pruebas-de-ancho-de-banda-entre-2-VSI-con-la-herramienta-lperf-hammer_and_wrench)
+8. [Referencias](#Referencias-mag)
+9. [Autores](#Autores-black_nib)
 <br />
 
 ## Pre Requisitos :pencil:
@@ -146,6 +147,9 @@ passwd 
 <br />
 
 > NOTA: Después de realizar la configuración, si desea acceder nuevamente a la *VSI* mediante *SSH* lo único que debe hacer es ingresar el comando ```ssh root@<ip_flotante>``` y posteriormente la contraseña establecida.
+<br />
+
+## Relizar pruebas de ancho de banda entre 2 VSI con la herramienta lperf :hammer_and_wrench:
 <br />
 
 ## Referencias :mag:
