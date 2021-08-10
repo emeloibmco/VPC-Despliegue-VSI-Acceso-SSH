@@ -161,10 +161,11 @@ El ancho de banda corresponde a la cantidad de datos que se pueden transmitir po
 <br />
 
 A continuación, se presenta la explicación de cada método.
+
 <br />
 
 ## Analizar tabla sobre latencia de red :chart_with_upwards_trend:
-*IBM Cloud* cuenta con la herramienta <a href="http://lg.softlayer.com/">lg.softlayer.com//a>, que permite visualizar datos sobre latencia de red entre servidores en distintas ubicaciones. 
+*IBM Cloud* cuenta con la herramienta <a href="http://lg.softlayer.com/">lg.softlayer.com</a>, que permite visualizar datos sobre latencia de red entre servidores en distintas ubicaciones. 
 <br />
 
 ## Utilizar el comando iperf :computer:
