@@ -163,12 +163,12 @@ El ancho de banda corresponde a la cantidad de datos que se pueden transmitir po
 A continuación, se presenta la explicación de cada método.
 <br />
 
-### Analizar tabla sobre latencia de red :chart_with_upwards_trend:
-Visualización de datos en SoftLayer IP Backbone - Latencia de red.
+## Analizar tabla sobre latencia de red :chart_with_upwards_trend:
+*IBM Cloud* cuenta con la herramienta <a href="http://lg.softlayer.com/">http://lg.softlayer.com/</a>, que permite  visualizar los datos sobre latencia de red entre servidores en distintas ubicaciones. 
 <br />
 
-### Utilizar el comando iperf :computer:
-Para este ejercicio se implementan 2 VSI ubicadas en Dallas y Londres. 
+## Utilizar el comando iperf :computer:
+El comando ```iperf``` es una herramienta de la línea de comandos usada en el diagnóstico de problemas de velocidad de red. Este comando mide la capacidad máxima de procesamiento de red que puede manejar un servidor. Es particularmente útil cuando se experimentan problemas de velocidad en la red, debido a que se puede utilizar para determinar cuál servidor es incapaz de llegar al rendimiento máximo. Para este ejercicio se implementan 2 VSI ubicadas en Dallas y Londres y posteriormente se realiza la respectiva prueba para medir el ancho de banda entre ambos servidores mediante el comando ```iperf```. 
 <br />
 
 ### a. Crear VPC, subred y VSI en Dallas y Londres
