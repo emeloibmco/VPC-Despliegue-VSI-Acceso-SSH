@@ -153,7 +153,19 @@ passwd 
 <br />
 
 ## Realizar pruebas de ancho de banda entre 2 VSI con iperf :hammer_and_wrench:
-Para realizar pruebas de ancho de banda entre 2 VSI ubicadas en centros de datos distintos, se presentan a continuación los pasos que se deben realizar. Para este ejercicio se implementa la primera VSI en América ubicada en Dallas y la segunda VSI en Europa ubicada en Londres.
+El ancho de banda corresponde a la cantidad de datos que se pueden transmitir por segundo. Para obtener este dato entre 2 VSI ubicadas en centros de datos diferentes en *IBM Cloud*, se pueden aplicar dos métodos: 
+
+1. [Analizar tabla sobre latencia de red](#Analizar-tabla-sobre-latencia-de-red)
+2. [Utilizar el comando iperf](#Utilizar-el-comando-iperf)
+
+A continuación, se presentan los dos métodos:
+
+### Analizar tabla sobre latencia de red
+Visualización de datos en SoftLayer IP Backbone - Latencia de red.
+<br />
+
+### Utilizar el comando iperf
+Para este ejercicio se implementan 2 VSI ubicadas en Dallas y Londres. 
 <br />
 
 ### a. Crear VPC, subred y VSI en Dallas y Londres
