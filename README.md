@@ -146,7 +146,18 @@ passwd 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/pass.PNG"></p>
 <br />
 
-8. **PENDIENTE CONFIGURACIÓN ADICIONAL PARA ACCEDER A VSI UBUNTU.**
+8. Para acceder a la vsi por medio de la contraseña que estableció, debe realizar una configuración adicional en la *vsi*:
+* Para acceder al archivo de configuración de conexión por ssh, ejecute el siguiente comando:
+```
+sudo nano /etc/ssh/sshd_config 
+```
+* En la sección *Authentication* asegurese que todos los parámetros se hayan establecido de la siguiente manera:
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/ssh_linux.PNG"></p>
+Una vez configurado, guarde los cambios con ```Ctrl+S``` y regrese a la linea de comandos con ```Ctrl+X```.
+* Por último reinicie los servicios de red con el siguiente comando:
+```
+systemctl restart sshd.service 
+```
 <br />
 
 > NOTA: Después de realizar la configuración, si desea acceder nuevamente a la *VSI* mediante *SSH* lo único que debe hacer es ingresar el comando ```ssh root@<ip_flotante>``` y posteriormente la contraseña establecida.
