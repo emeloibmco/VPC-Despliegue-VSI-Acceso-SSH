@@ -270,26 +270,27 @@ El último paso consiste en realizar la prueba para medir el ancho de banda entr
 
 1.	Determine cual *VSI* funcionará como servidor y cual funcionará como cliente. Para este caso de ejemplo se considera:
 
-* *VSI* 1 – Londres: servidor.
-* *VSI* 2 – Dallas: cliente.
+* ```VSI 1 – Londres```: servidor.
+* ```VSI 2 – Dallas```: cliente.
 <br />
 
 2.	Acceda a cada una de las *VSI* con la respectiva IP flotante y contraseña. 
 <br />
 
-3.	En la VSI que funcionará como servidor (en este caso la *VSI* 1) coloque el comando:
+3.	En la *VSI* que funcionará como servidor (en este caso la *VSI* 1) coloque el comando:
 ```
 iperf3 -s
 ```
 <br />
 
-4.	En la VSI que funcionará como cliente (en este caso la *VSI* 2) coloque el comando:
+4.	En la *VSI* que funcionará como cliente (en este caso la *VSI* 2) coloque el comando:
 ```
 iperf3 -c <ip_servidor>
 ```
 <br />
 
-Una vez ejecute el comando va a obtener somo respuesta una serie de medidas, entre ellas la velocidad de transmisión en Mbits/s.
+Una vez ejecute el comando va a obtener como respuesta una serie de medidas, entre ellas la velocidad de transmisión en Mbits/s.
+
 <br />
 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/TestFinalIperf.gif "></p>
