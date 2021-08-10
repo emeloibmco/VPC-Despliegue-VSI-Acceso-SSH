@@ -201,7 +201,7 @@ Recuerde el paso sobre como [Configurar claves SSH](#Configurar-claves-SSH-close
 <br />
 
 ### b. Configurar archivos y acceder a VSI Dallas y VSI Londres
-Como se comento en [configuración adicional para acceder a la VSI por medio de SSH ](#Configuración-adicional-para-acceder-a-la-VSI-por-medio-de-SSH), para acceder por medio de SSH a las *VSI* de Londres y Dallas, es necesario realizar una configuración previa en las *VSI*. Debido a que las máquinas aprovisionadas tienen sistema operativo *CentOS*, debe previamente instalar el comando ```nano``` ejecutando el siguiente comando:
+Como se comento en [Configuración adicional para acceder a la VSI por medio de SSH ](#Configuración-adicional-para-acceder-a-la-VSI-por-medio-de-SSH), para acceder por medio de SSH a las *VSI* de Londres y Dallas, es necesario realizar una configuración previa en las *VSI*. Debido a que las máquinas aprovisionadas tienen sistema operativo *CentOS*, debe previamente instalar el comando ```nano``` ejecutando el siguiente comando:
 
 ```
 yum install nano
