@@ -146,20 +146,20 @@ passwd 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/pass.PNG"></p>
 <br />
 
-8. **PENDIENTE CONFIGURACIÓN ADICIONAL PARA ACCEDER A VSI.**
+8. **PENDIENTE CONFIGURACIÓN ADICIONAL PARA ACCEDER A VSI UBUNTU.**
 <br />
 
 > NOTA: Después de realizar la configuración, si desea acceder nuevamente a la *VSI* mediante *SSH* lo único que debe hacer es ingresar el comando ```ssh root@<ip_flotante>``` y posteriormente la contraseña establecida.
 <br />
 
 ## Realizar pruebas de ancho de banda entre 2 VSI con iperf :hammer_and_wrench:
-Para realizar pruebas de ancho de banda entre 2 VSI ubicadas en centros de datos distintos
+Para realizar pruebas de ancho de banda entre 2 VSI ubicadas en centros de datos distintos, se presentan a continuación los pasos que se deben realizar. Para este ejercicio se implementa la primera VSI en América ubicada en Dallas y la segunda VSI en Europa ubicada en Londres.
 <br />
 
-### a. Crear VPC, subred y VSI en Dallas y Londres.
+### a. Crear VPC, subred y VSI en Dallas y Londres
 <br />
 
-### b. Configurar arcjivos y acceder a VSI en Dallas y Londres.
+### b. Configurar archivos y acceder a VSI Dallas y VSI Londres
 <br />
 
 ### c. Instalar comando iperf3 en cada VSI
