@@ -233,7 +233,7 @@ dnf install iperf3
 
 <p align="center"><img width="1000" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/iperf.PNG"></p>
 
-Una vez termine de instalar, podrá utilizar el comando iperf3 en las *VSI*.
+Una vez termine de instalar, podrá utilizar el comando ```iperf3``` en las *VSI*.
 
 <br />
 
