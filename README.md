@@ -153,7 +153,7 @@ passwd 
 <br />
 
 ## Realizar pruebas de ancho de banda entre 2 VSI con iperf :hammer_and_wrench:
-El termino latencia corresponde al tiempo que se tarda la transmisión de información a través de una red. *IBM Cloud* cuenta con la herramienta <a href="http://lg.softlayer.com/">lg.softlayer.com</a>, que permite visualizar datos sobre latencia de red entre servidores en distintas ubicaciones. En la siguiente se presenta la tabla que contiene los datos. 
+El termino latencia corresponde al tiempo que se tarda la transmisión de información a través de una red. *IBM Cloud* cuenta con la herramienta <a href="http://lg.softlayer.com/">lg.softlayer.com</a>, que permite visualizar datos sobre latencia de red entre servidores en distintas ubicaciones. En la siguiente imagen se presenta la tabla que contiene los datos. 
 <br />
 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/latency.png"></p>
