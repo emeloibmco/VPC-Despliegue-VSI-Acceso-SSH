@@ -13,9 +13,10 @@ La presente guía está enfocada en el despliegue de una VSI Linux en *VPC*, jun
 4. [Configurar claves SSH](#Configurar-claves-SSH-closed_lock_with_key)
 5. [Desplegar VSI en VPC](#Desplegar-VSI-en-VPC-computer)
 6. [Acceder a la VSI mediante SSH](#Acceder-a-la-VSI-mediante-SSH-trophy)
-7. [Realizar pruebas de ancho de banda entre 2 VSI con iperf](#Realizar-pruebas-de-ancho-de-banda-entre-2-VSI-con-iperf-hammer_and_wrench)
-8. [Referencias](#Referencias-mag)
-9. [Autores](#Autores-black_nib)
+7. [Configuración adicional para acceder a la VSI por medio de SSH](#Configuración-adicional-para-acceder-a-la-VSI-por-medio-de-SSH-hammer)
+8. [Realizar pruebas de ancho de banda entre 2 VSI con iperf](#Realizar-pruebas-de-ancho-de-banda-entre-2-VSI-con-iperf-hammer_and_wrench)
+9. [Referencias](#Referencias-mag)
+10. [Autores](#Autores-black_nib)
 <br />
 
 ## Pre Requisitos :pencil:
@@ -146,7 +147,7 @@ passwd 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/pass.PNG"></p>
 <br />
 
-## 8.Configuración adicional para acceder a la VSI por medio de SSH 
+## Configuración adicional para acceder a la VSI por medio de SSH :hammer:
 
 Para acceder a la vsi por medio de la contraseña que estableció, debe realizar una configuración adicional en la *vsi*:
 * Para acceder al archivo de configuración de conexión por ssh, ejecute el siguiente comando:
@@ -201,7 +202,7 @@ Recuerde el paso sobre como [Configurar claves SSH](#Configurar-claves-SSH-close
 <br />
 
 ### b. Configurar archivos y acceder a VSI Dallas y VSI Londres
-Como se comento en [8.Configuración adicional para acceder a la VSI por medio de SSH ](#8.Configuración-adicional-para-acceder-a-la-VSI-por-medio-de-SSH), para acceder por medio de SSH a las *VSI* de Londres y Dallas, es necesario realizar una configuración previa en las *VSI*. Debido a que las máquinas aprovisionadas tienen sistema operativo *CentOS*, debe previamente instalar el comando ```nano``` ejecutando el siguiente comando:
+Como se comento en [Configuración adicional para acceder a la VSI por medio de SSH](#Configuración-adicional-para-acceder-a-la-VSI-por-medio-de-SSH-hammer), para acceder por medio de SSH a las *VSI* de Londres y Dallas, es necesario realizar una configuración previa en las *VSI*. Debido a que las máquinas aprovisionadas tienen sistema operativo *CentOS*, debe previamente instalar el comando ```nano``` ejecutando el siguiente comando:
 
 ```
 yum install nano
