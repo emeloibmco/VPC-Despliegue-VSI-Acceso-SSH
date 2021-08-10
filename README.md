@@ -146,7 +146,9 @@ passwd 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/pass.PNG"></p>
 <br />
 
-8. Para acceder a la vsi por medio de la contraseña que estableció, debe realizar una configuración adicional en la *vsi*:
+8. ###Configuración adicional para acceder a la VSI por medio de SSH 
+
+Para acceder a la vsi por medio de la contraseña que estableció, debe realizar una configuración adicional en la *vsi*:
 * Para acceder al archivo de configuración de conexión por ssh, ejecute el siguiente comando:
 ```
 sudo nano /etc/ssh/sshd_config 
