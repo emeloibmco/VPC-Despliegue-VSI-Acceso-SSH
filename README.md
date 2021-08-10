@@ -176,6 +176,7 @@ Para este caso, si se analizan los servidores en ubicaciones como Dallas y Londr
 <br />
 
 Por otro lado, el *ancho de banda* corresponde a la cantidad de datos que se pueden transmitir por segundo (medido en este caso en Mbits/s). Para realizar esta medición se utiliza el comando ```iperf```, que es una herramienta de la línea de comandos usada en el diagnóstico de problemas de velocidad de red. Este comando mide la capacidad máxima de procesamiento de red que puede manejar un servidor. Es particularmente útil cuando se experimentan problemas de velocidad en la red, debido a que se puede utilizar para determinar cuál servidor es incapaz de llegar al rendimiento máximo. Para este ejercicio se implementan 2 VSI ubicadas en Dallas y Londres y posteriormente se realiza la respectiva prueba para medir el ancho de banda entre ambos servidores mediante el comando ```iperf```, tal y como se presenta en los siguientes pasos.
+
 <br />
 
 ### a. Crear VPC, subred y VSI en Dallas y Londres
@@ -183,15 +184,18 @@ Para realizar el test, en primero lugar debe implementar:
 * Una *VPC* en Dallas y una *VPC* en Londres. Tomar como guía el paso [Crear  VPC](#Crear-VPC-cloud).
 * Una subred en cada *VPC* (Dallas y Londres). Tomar como guía el paso [Crear subred](#Crear-subred-wrench).
 * Una *VSI* con SO CentOS en Dallas.
+
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/vsi_dallas.gif"></p>
 <br />
 
 * Una *VSI* con SO CentOS en Londres. 
-* <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/Crear%20VSI%20Londres.gif"></p>
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/Crear%20VSI%20Londres.gif"></p>
 <br />
 
 
 Recuerde el paso sobre como [Configurar claves SSH](#Configurar-claves-SSH-closed_lock_with_key) de forma previa para crear sus instancias. 
+
 <br />
 
 ### b. Configurar archivos y acceder a VSI Dallas y VSI Londres
