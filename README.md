@@ -166,6 +166,10 @@ Por otro lado, el ancho de banda corresponde a la cantidad de datos que se puede
 <br />
 
 ### a. Crear VPC, subred y VSI en Dallas y Londres
+Para realizar el test, en primero lugar debe implementar:
+* Una *VPC* en Dallas y una *VPC* en Londres. Tomar como guía el paso [Crear  VPC](#Crear-VPC-cloud)
+* Una subred en cada *VPC* (Dallas y Londres). Tomar como guía el paso [Crear subred](#Crear-subred-wrench)
+* Una *VSI* en Dallas
 <br />
 
 ### b. Configurar archivos y acceder a VSI Dallas y VSI Londres
