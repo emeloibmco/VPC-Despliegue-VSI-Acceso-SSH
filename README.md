@@ -13,7 +13,7 @@ La presente guía está enfocada en el despliegue de una VSI Linux en *VPC*, jun
 4. [Configurar claves SSH](#Configurar-claves-SSH-closed_lock_with_key)
 5. [Desplegar VSI en VPC](#Desplegar-VSI-en-VPC-computer)
 6. [Acceder a la VSI mediante SSH](#Acceder-a-la-VSI-mediante-SSH-trophy)
-7. [Realizar pruebas de ancho de banda entre 2 VSI con lperf](#Realizar-pruebas-de-ancho-de-banda-entre-2-VSI-con-lperf-hammer_and_wrench)
+7. [Realizar pruebas de ancho de banda entre 2 VSI con iperf](#Realizar-pruebas-de-ancho-de-banda-entre-2-VSI-con-iperf-hammer_and_wrench)
 8. [Referencias](#Referencias-mag)
 9. [Autores](#Autores-black_nib)
 <br />
@@ -146,12 +146,29 @@ passwd 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/pass.PNG"></p>
 <br />
 
+8. **PENDIENTE CONFIGURACIÓN ADICIONAL PARA ACCEDER A VSI.**
+<br />
+
 > NOTA: Después de realizar la configuración, si desea acceder nuevamente a la *VSI* mediante *SSH* lo único que debe hacer es ingresar el comando ```ssh root@<ip_flotante>``` y posteriormente la contraseña establecida.
 <br />
 
-## Realizar pruebas de ancho de banda entre 2 VSI con lperf :hammer_and_wrench:
+## Realizar pruebas de ancho de banda entre 2 VSI con iperf :hammer_and_wrench:
 Para realizar pruebas 
 <br />
+
+### a. Crear VPC, subred y VSI en Dallas
+<br />
+
+### b. Crear VPC, subred y VSI en Londres
+<br />
+
+### c. Instalar comando iperf3 en cada VSI
+<br />
+
+### d. Configurar reglas en VSI
+<br />
+
+### e. Realizar test de ancho de banda con iperf
 
 ## Referencias :mag:
 * <a href="https://cloud.ibm.com/docs/vpc?topic=vpc-ssh-keys">SSH Keys</a>.
