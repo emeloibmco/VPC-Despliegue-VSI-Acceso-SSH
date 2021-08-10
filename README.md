@@ -239,6 +239,7 @@ Una vez termine de instalar, podrá utilizar el comando iperf3 en las *VSI*.
 
 ### d. Configurar reglas en VSI
 Antes de realizar la prueba de funcionamiento para medir el ancho de banda entre un cliente y un servidor *TCP*, debe configurar las reglas de entrada en el grupo de seguridad de la *VPC* cuya *VSI* funcionará como servidor (para este caso se configura en la *VPC* Londres). Para ello realice:
+
 <br />
 
 1.	En ```Infraestructura VPC/VPC Infrastructure``` ubique la sección ```Red/Net``` y de click en la opción ```Grupos de seguridad/Security groups```.
