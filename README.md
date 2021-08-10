@@ -153,7 +153,9 @@ sudo nano /etc/ssh/sshd_config 
 ```
 * En la sección *Authentication* asegurese que todos los parámetros se hayan establecido de la siguiente manera:
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/ssh_linux.PNG"></p>
+
 Una vez configurado, guarde los cambios con ```Ctrl+S``` y regrese a la linea de comandos con ```Ctrl+X```.
+
 * Por último reinicie los servicios de red con el siguiente comando:
 ```
 systemctl restart sshd.service 
