@@ -146,7 +146,7 @@ passwd 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/pass.PNG"></p>
 <br />
 
-8. ###Configuración adicional para acceder a la VSI por medio de SSH 
+### 8.Configuración adicional para acceder a la VSI por medio de SSH 
 
 Para acceder a la vsi por medio de la contraseña que estableció, debe realizar una configuración adicional en la *vsi*:
 * Para acceder al archivo de configuración de conexión por ssh, ejecute el siguiente comando:
@@ -201,9 +201,38 @@ Recuerde el paso sobre como [Configurar claves SSH](#Configurar-claves-SSH-close
 <br />
 
 ### b. Configurar archivos y acceder a VSI Dallas y VSI Londres
+Como se comento en [Configuración adicional para acceder a la VSI por medio de SSH ](#Configuración-adicional-para-acceder-a-la-VSI-por-medio-de-SSH), para acceder por medio de SSH a las *VSI* de Londres y Dallas, es necesario realizar una configuración previa en las *VSI*. Debido a que las máquinas aprovisionadas tienen sistema operativo *CentOS*, debe previamente instalar el comando ```nano``` ejecutando el siguiente comando:
+
+```
+yum install nano
+```
+Los demás comandos se aplican de la misma forma que en la máquina Ubuntu.
+
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/config.gif"></p>
+
+Una vez se realice la configuración podrá conectarse por medio de *SSH* únicamente ingresando el ```password``` configurado.
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/ingreso.PNG"></p>
+
 <br />
 
 ### c. Instalar comando iperf3 en cada VSI
+
+Actualmente hay dos ramas independientes de ```iPerf``` que se desarrollan en paralelo: ```iPerf2``` y ```iPerf3```. La funcionalidad de estas herramientas es en su mayoría compatible, pero utilizan diferentes puertos de red de forma predeterminada. En ```iPerf1/2``` es 5001, en ```iPerf3``` es 5201.
+
+Las diferencias no son tan significativas, por lo que no es necesario utilizar una versión específica de ```iPerf```, en este ejercicio usaremos ```iperf3```.
+
+Para instalar ```iperf3``` en las VSI *CentOS*, ejecute:
+
+```
+yum update
+dnf install iperf3
+```
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/iperf.PNG"></p>
+
+Una vez termine de instalar, podrá utilizar el comando iperf3 en las *VSI*.
 <br />
 
 ### d. Configurar reglas en VSI
