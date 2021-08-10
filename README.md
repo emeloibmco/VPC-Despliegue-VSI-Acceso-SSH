@@ -154,17 +154,20 @@ passwd 
 
 ## Realizar pruebas de ancho de banda entre 2 VSI con iperf :hammer_and_wrench:
 El ancho de banda corresponde a la cantidad de datos que se pueden transmitir por segundo. Para obtener este dato entre 2 VSI ubicadas en centros de datos diferentes en *IBM Cloud*, se pueden aplicar dos métodos: 
+<br />
 
-1. [Analizar tabla sobre latencia de red](#Analizar-tabla-sobre-latencia-de-red)
-2. [Utilizar el comando iperf](#Utilizar-el-comando-iperf)
+1. [Analizar tabla sobre latencia de red](#Analizar-tabla-sobre-latencia-de-red-chart_with_upwards_trend)
+2. [Utilizar el comando iperf](#Utilizar-el-comando-iperf-computer)
+<br />
 
-A continuación, se presentan los dos métodos:
+A continuación, se presenta la explicación de cada método.
+<br />
 
-### Analizar tabla sobre latencia de red
+### Analizar tabla sobre latencia de red :chart_with_upwards_trend:
 Visualización de datos en SoftLayer IP Backbone - Latencia de red.
 <br />
 
-### Utilizar el comando iperf
+### Utilizar el comando iperf :computer:
 Para este ejercicio se implementan 2 VSI ubicadas en Dallas y Londres. 
 <br />
 
