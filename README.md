@@ -251,7 +251,7 @@ Antes de realizar la prueba de funcionamiento para medir el ancho de banda entre
 3.	De click sobre el grupo de seguridad y seleccione la pestaña ```Reglas/Rules```.
 <br />
 
-4.	Posteriormente, de click en el botón ```Crear ``` ➡ seleccione el protocolo ```TPC``` y en el rango de puertos coloque el puerto ```5201``` que corresponde al puerto de escucha del servidor (definido por defecto con ```iperf```).  Cuando la configuración esté lista de click en el botón ```Guardar```.
+4.	Posteriormente, de click en el botón ```Crear``` ➡ seleccione el protocolo ```TPC``` y en el rango de puertos coloque el puerto ```5201``` que corresponde al puerto de escucha del servidor (definido por defecto con ```iperf```).  Cuando la configuración esté lista de click en el botón ```Guardar```.
 <br />
 
 5.	Espero unos segundos mientras se implementa la regla y verifique que se encuentre correctamente.
@@ -265,6 +265,34 @@ Antes de realizar la prueba de funcionamiento para medir el ancho de banda entre
 
 
 ### e. Realizar test de ancho de banda con iperf
+El último paso consiste en realizar la prueba para medir el ancho de banda entre ambos servidores. Para ello, realice los siguiente:
+<br />
+
+1.	Determine que *VSI* funcionará como servidor y cual otra funcionará como cliente. Para este caso de ejemplo se considera:
+
+•	*VSI* 1 – Londres: servidor.
+•	*VSI* 2 – Dallas: cliente.
+<br />
+
+2.	Acceda a cada una de las *VSI* con la respectiva IP flotante y contraseña. 
+<br />
+
+3.	En la VSI que funcionará como servidor (en este caso la *VSI* 1) coloque el comando:
+```
+iperf3 -s
+```
+<br />
+
+4.	En la VSI que funcionará como cliente (en este caso la *VSI* 2) coloque el comando:
+```
+iperf3 -c <ip_servidor>
+```
+<br />
+
+Una vez ejecute el comando va a obtener somo respuesta una serie de medidas, entre ellas la velocidad de transmisión en Mbits/s.
+<br />
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/TestFinalIperf.gif "></p>
 <br />
 
 ## Referencias :mag:
