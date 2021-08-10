@@ -146,43 +146,23 @@ passwd 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/pass.PNG"></p>
 <br />
 
-8. Para acceder a la vsi por medio de la contraseña que estableció, debe realizar una configuración adicional en la *vsi*:
-* Para acceder al archivo de configuración de conexión por ssh, ejecute el siguiente comando:
-```
-sudo nano /etc/ssh/sshd_config 
-```
-* En la sección *Authentication* asegurese que todos los parámetros se hayan establecido de la siguiente manera:
-<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/ssh_linux.PNG"></p>
-
-Una vez configurado, guarde los cambios con ```Ctrl+S``` y regrese a la linea de comandos con ```Ctrl+X```.
-
-* Por último reinicie los servicios de red con el siguiente comando:
-```
-systemctl restart sshd.service 
-```
+8. **PENDIENTE CONFIGURACIÓN ADICIONAL PARA ACCEDER A VSI UBUNTU.**
 <br />
 
 > NOTA: Después de realizar la configuración, si desea acceder nuevamente a la *VSI* mediante *SSH* lo único que debe hacer es ingresar el comando ```ssh root@<ip_flotante>``` y posteriormente la contraseña establecida.
 <br />
 
 ## Realizar pruebas de ancho de banda entre 2 VSI con iperf :hammer_and_wrench:
-El ancho de banda corresponde a la cantidad de datos que se pueden transmitir por segundo. Para obtener este dato entre 2 VSI ubicadas en centros de datos diferentes en *IBM Cloud*, se pueden aplicar dos métodos: 
+El termino latencia corresponde al tiempo que se tarda transmitir de información a través de una red. *IBM Cloud* cuenta con la herramienta <a href="http://lg.softlayer.com/">lg.softlayer.com</a>, que permite visualizar datos sobre latencia de red entre servidores en distintas ubicaciones, mediante la tabla que se presenta en la siguiente imagen. 
 <br />
 
-1. [Analizar tabla sobre latencia de red](#Analizar-tabla-sobre-latencia-de-red-chart_with_upwards_trend)
-2. [Utilizar el comando iperf](#Utilizar-el-comando-iperf-computer)
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/latency.png"></p>
 <br />
 
-A continuación, se presenta la explicación de cada método.
-
+Para este caso, si se analizan los servidores en ubicaciones como Dallas y Londres se obtiene que la latencia de red tiene un valor de 108 ms. Es importante aclarar que los datos presentados en la tabla son son estáticos y no una representación en tiempo real.
 <br />
 
-## Analizar tabla sobre latencia de red :chart_with_upwards_trend:
-*IBM Cloud* cuenta con la herramienta <a href="http://lg.softlayer.com/">lg.softlayer.com</a>, que permite visualizar datos sobre latencia de red entre servidores en distintas ubicaciones. 
-<br />
-
-## Utilizar el comando iperf :computer:
-El comando ```iperf``` es una herramienta de la línea de comandos usada en el diagnóstico de problemas de velocidad de red. Este comando mide la capacidad máxima de procesamiento de red que puede manejar un servidor. Es particularmente útil cuando se experimentan problemas de velocidad en la red, debido a que se puede utilizar para determinar cuál servidor es incapaz de llegar al rendimiento máximo. Para este ejercicio se implementan 2 VSI ubicadas en Dallas y Londres y posteriormente se realiza la respectiva prueba para medir el ancho de banda entre ambos servidores mediante el comando ```iperf```. 
+Por otro lado, el ancho de banda corresponde a la cantidad de datos que se pueden transmitir por segundo (medido en este caso en Mbits/s). Para realizar esta medición se utiliza el comando ```iperf```, que es una herramienta de la línea de comandos usada en el diagnóstico de problemas de velocidad de red. Este comando mide la capacidad máxima de procesamiento de red que puede manejar un servidor. Es particularmente útil cuando se experimentan problemas de velocidad en la red, debido a que se puede utilizar para determinar cuál servidor es incapaz de llegar al rendimiento máximo. Para este ejercicio se implementan 2 VSI ubicadas en Dallas y Londres y posteriormente se realiza la respectiva prueba para medir el ancho de banda entre ambos servidores mediante el comando ```iperf```, tal y como se presenta en los siguientes pasos.
 <br />
 
 ### a. Crear VPC, subred y VSI en Dallas y Londres
