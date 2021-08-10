@@ -265,13 +265,13 @@ Antes de realizar la prueba de funcionamiento para medir el ancho de banda entre
 
 
 ### e. Realizar test de ancho de banda con iperf
-El último paso consiste en realizar la prueba para medir el ancho de banda entre ambos servidores. Para ello, realice los siguiente:
+El último paso consiste en realizar la prueba para medir el ancho de banda entre ambos servidores. Para ello, realice lo siguiente:
 <br />
 
-1.	Determine que *VSI* funcionará como servidor y cual otra funcionará como cliente. Para este caso de ejemplo se considera:
+1.	Determine cual *VSI* funcionará como servidor y cual funcionará como cliente. Para este caso de ejemplo se considera:
 
-•	*VSI* 1 – Londres: servidor.
-•	*VSI* 2 – Dallas: cliente.
+* *VSI* 1 – Londres: servidor.
+* *VSI* 2 – Dallas: cliente.
 <br />
 
 2.	Acceda a cada una de las *VSI* con la respectiva IP flotante y contraseña. 
