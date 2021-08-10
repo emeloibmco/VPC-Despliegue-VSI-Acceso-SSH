@@ -251,7 +251,7 @@ Antes de realizar la prueba de funcionamiento para medir el ancho de banda entre
 3.	De click sobre el grupo de seguridad y seleccione la pestaña ```Reglas/Rules```.
 <br />
 
-4.	Posteriormente, de click en el botón ```Crear``` ➡ seleccione el protocolo ```TPC``` y en el rango de puertos coloque el puerto ```5201``` que corresponde al puerto de escucha del servidor (definido por defecto con ```iperf```).  Cuando la configuración esté lista de click en el botón ```Guardar```.
+4.	Posteriormente, de click en el botón ```Crear``` ➡ seleccione el protocolo ```TPC``` y en el rango de puertos coloque el puerto ```5201``` que corresponde al puerto de escucha del servidor (definido por defecto con ```iperf3```).  Cuando la configuración esté lista de click en el botón ```Guardar```.
 <br />
 
 5.	Espero unos segundos mientras se implementa la regla y verifique que se encuentre correctamente.
