@@ -234,10 +234,34 @@ dnf install iperf3
 <p align="center"><img width="1000" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/iperf.PNG"></p>
 
 Una vez termine de instalar, podrá utilizar el comando iperf3 en las *VSI*.
+
 <br />
 
 ### d. Configurar reglas en VSI
+Antes de realizar la prueba de funcionamiento para medir el ancho de banda entre un cliente y un servidor *TCP*, debe configurar las reglas de entrada en el grupo de seguridad de la *VPC* cuya *VSI* funcionará como servidor (para este caso se configura en la *VPC* Londres). Para ello realice:
 <br />
+
+1.	En ```Infraestructura VPC/VPC Infrastructure``` ubique la sección ```Red/Net``` y de click en la opción ```Grupos de seguridad/Security groups```.
+<br />
+
+2.	Seleccione la región en donde se encuentra la *VPC* y visualice el grupo se seguridad. El nombre que aparece se crea de forma automática.
+<br />
+
+3.	De click sobre el grupo de seguridad y seleccione la pestaña ```Reglas/Rules```.
+<br />
+
+4.	Posteriormente, de click en el botón ```Crear ``` ➡ seleccione el protocolo ```TPC``` y en el rango de puertos coloque el puerto ```5201``` que corresponde al puerto de escucha del servidor (definido por defecto con ```iperf```).  Cuando la configuración esté lista de click en el botón ```Guardar```.
+<br />
+
+5.	Espero unos segundos mientras se implementa la regla y verifique que se encuentre correctamente.
+<br />
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/Configurar%20Reglas.gif "></p>
+<br />
+
+> NOTA: puede realizar la configuración de las reglas en ambas *VSI*, en caso de que desee realizar la prueba intercambiando los roles de servidor y de cliente.
+<br />
+
 
 ### e. Realizar test de ancho de banda con iperf
 <br />
