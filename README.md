@@ -156,7 +156,7 @@ passwd 
 Para realizar pruebas de ancho de banda entre 2 VSI ubicadas en centros de datos distintos 
 <br />
 
-### a. Crear VPC, subred y VSI en Dllas
+### a. Crear VPC, subred y VSI en Dallas
 <br />
 
 ### b. Crear VPC, subred y VSI en Londres
