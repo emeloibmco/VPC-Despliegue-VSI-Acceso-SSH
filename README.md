@@ -153,13 +153,13 @@ passwd 
 <br />
 
 ## Realizar pruebas de ancho de banda entre 2 VSI con iperf :hammer_and_wrench:
-Para realizar pruebas de ancho de banda entre 2 VSI ubicadas en centros de datos distintos 
+Para realizar pruebas de ancho de banda entre 2 VSI ubicadas en centros de datos distintos
 <br />
 
-### a. Crear VPC, subred y VSI en Dallas
+### a. Crear VPC, subred y VSI en Dallas y Londres.
 <br />
 
-### b. Crear VPC, subred y VSI en Londres
+### b. Configurar arcjivos y acceder a VSI en Dallas y Londres.
 <br />
 
 ### c. Instalar comando iperf3 en cada VSI
