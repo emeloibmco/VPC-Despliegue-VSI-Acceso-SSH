@@ -167,6 +167,12 @@ systemctl restart sshd.service 
 > NOTA: Después de realizar la configuración, si desea acceder nuevamente a la *VSI* mediante *SSH* lo único que debe hacer es ingresar el comando ```ssh root@<ip_flotante>``` y posteriormente la contraseña establecida.
 <br />
 
+## Referencias :mag:
+* <a href="https://cloud.ibm.com/docs/vpc?topic=vpc-getting-started">Getting started with Virtual Private Cloud (VPC)</a>.
+* <a href="https://cloud.ibm.com/docs/vpc?topic=vpc-ssh-keys">SSH keys</a>.
+* <a href="https://cloud.ibm.com/docs/vpc?topic=vpc-creating-virtual-servers">Creating virtual server instances by using the UI</a>.
+<br />
+
 ## Autores :black_nib:
 Equipo IBM Cloud Tech Sales Colombia.
 <br />
