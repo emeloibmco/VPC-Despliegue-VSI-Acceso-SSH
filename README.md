@@ -143,7 +143,7 @@ ssh -i ./id_rsa root@<ip_flotante>
 ```
 passwd 
 ```
-<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/pass.PNG"></p>
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Despliegue-VSI-Acceso-SSH/blob/main/Imagenes/pass.png"></p>
 <br />
 
 ## Configuración adicional para acceder a la VSI por medio de SSH :hammer:
