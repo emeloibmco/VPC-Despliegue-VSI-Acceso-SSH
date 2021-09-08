@@ -34,7 +34,7 @@ Para realizar el ejercicio lo primero que debe hacer es crear una *VPC* en su cu
 * ```Grupo de recursos```: seleccione el grupo de recursos en el cual va a trabajar.
 * ```Ubicación```: seleccione la ubicación en la cual desea implementar la *VPC*.
 
-<br />
+
 | NAME | DISPLAY NAME |
 | ------------- | :---: |
 | au-syd        | Sydney          |     
@@ -49,7 +49,7 @@ Para realizar el ejercicio lo primero que debe hacer es crear una *VPC* en su cu
 | us-south-test | Dallas Test     |
 | us-east       | Washington DC   |
 | br-sao        | Sao Paulo       |
-<br />
+
 
 
 * ```Grupo de seguridad predeterminado```: deje seleccionadas las opciones *Permitir SSH* y *Permitir ping*.
