@@ -33,6 +33,25 @@ Para realizar el ejercicio lo primero que debe hacer es crear una *VPC* en su cu
 * ```Nombre```: asigne un nombre exclusivo para la *VPC*.
 * ```Grupo de recursos```: seleccione el grupo de recursos en el cual va a trabajar.
 * ```Ubicación```: seleccione la ubicación en la cual desea implementar la *VPC*.
+
+<br />
+| NAME | DISPLAY NAME |
+| ------------- | :---: |
+| au-syd        | Sydney          |     
+| in-che        | Chennai         |     
+| jp-osa        | Osaka           |     
+| jp-tok        | Tokyo           |     
+| kr-seo        | Seoul           |     
+| eu-de         | Frankfurt       | 
+| eu-gb         | London          | 
+| ca-tor        | Toronto         |     
+| us-south      | Dallas          | 
+| us-south-test | Dallas Test     |
+| us-east       | Washington DC   |
+| br-sao        | Sao Paulo       |
+<br />
+
+
 * ```Grupo de seguridad predeterminado```: deje seleccionadas las opciones *Permitir SSH* y *Permitir ping*.
 * ```Acceso clásico```: deje el campo SIN seleccionar.
 * ```Prefijos de dirección predeterminados```: deje el campo SIN seleccionar, ya que posteriormente se creara la subred en la que se va a trabajar.
